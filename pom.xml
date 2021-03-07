@@ -15,14 +15,13 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-
-		<repository>
-			<id>repoR</id>
-			<url>http://3.81.163.113:8081/nexus/content/repositories/repoR/</url>
-		</repository>
-		<snapshotRepository>
-			<id>repoS</id>
-			<url>http://3.81.163.113:8081/nexus/content/repositories/repoS/</url>
-		</snapshotRepository>		
+	<repository>
+	   <id>AROWN</id>
+	   <url>http://65.0.104.63:8081/repository/AROWN/</url>
+	</repository>
+	<snapshotRepository>
+	   <id>artest</id>
+	   <url>http://65.0.104.63:8081/repository/artest/</url>
+	</snapshotRepository>		
   </distributionManagement>
 </project>
